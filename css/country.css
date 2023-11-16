@@ -1,0 +1,39 @@
+.bigBox {
+    background: rgba(144, 144, 144, 0.268);
+    border-radius: 8px;
+    border: solid black 1px;
+}
+
+.name-state {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.grayTxt {
+    color: lightgray;
+}
+
+.homeBox {
+    min-height: 350px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.homeBoxImg {
+    height: 250px;
+}
+
+.homeBoxP {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: large;
+}
+
+
+@media (max-width:768px) {
+    .homeBox {
+        min-width: 75%;
+        min-height: 300px;
+    }
+
+    .homeBoxImg {
+        height: 180px;
+    }
+}
